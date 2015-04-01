@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red7\green64\blue34;}
+\margl1440\margr1440\vieww12600\viewh14520\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs22 \cf0 PROBLEM 1\
+\
+graph created:\
+\
+\{actor4=actor4, actor3=actor3, actor2=actor2, actor1=actor1, actor5=actor5, actor6=actor6, Kevin Bacon=Kevin Bacon\}\
+[movie1(Kevin Bacon,actor1), movie1(Kevin Bacon,actor2), movie1(actor1,actor2), movie2(actor1,actor3), movie3(actor3,actor2), movie4(actor3,actor4), movie5(actor5,actor6)]\
+\
+digraph:\
+\
+\{actor4=actor4, actor3=actor3, actor2=actor2, actor1=actor1, Kevin Bacon=Kevin Bacon\}\
+[movie1(actor1,Kevin Bacon), movie1(actor2,Kevin Bacon), movie2(actor3,actor1), movie4(actor4,actor3)]\
+\
+PROBLEM 2\
+\
+graph created from test files:\
+\
+\{actor4=actor4, actor3=actor3, actor2=actor2, actor1=actor1, Kevin Bacon=Kevin Bacon\}\
+[movie1(actor1,Kevin Bacon), movie1(actor2,Kevin Bacon), movie2(actor3,actor1), movie4(actor4,actor3)]\
+\
+PROBLEM 3\
+\
+run with test files:\
+\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.\
+\pard\pardeftab720
+\cf2 actor1\cf0 \
+actor1 appeared in movie1 with Kevin Bacon\
+actor1's Bacon Number is 1\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.\
+\cf2 blahblah\cf0 \
+That actor isn't connected to Kevin Bacon!\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.\
+\cf2 Kevin Bacon\cf0 \
+That is Kevin Bacon! His Bacon Number is 0.\
+Kevin Bacon's Bacon Number is 0\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.\
+\
+run with full files:\
+\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.\
+\cf2 Jodie Foster\cf0 \
+Jodie Foster appeared in Accused, The (1988) with Kelly McGillis\
+Kelly McGillis appeared in Top Gun (1986) with Tom Cruise\
+Tom Cruise appeared in Few Good Men, A (1992) with Kevin Bacon\
+Jodie Foster's Bacon Number is 3\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.\
+\cf2 blahblahblah\cf0 \
+That actor isn't connected to Kevin Bacon!\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.\
+\cf2 Kevin Bacon\cf0 \
+That is Kevin Bacon! His Bacon Number is 0.\
+Kevin Bacon's Bacon Number is 0\
+Please enter the name of the actor you wish to trace to Kevin Bacon, or type quit to exit.}
